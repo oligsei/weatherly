@@ -4,6 +4,7 @@ node_js:
 cache:
   directories:
   - node_modules
-env:
-  global:
+deploy:
+  provider: firebase
+  token:
     secure: 0pQ3MjZ+iu9aFpw0ntM2QYkAfMYlTq7PumO+o4Yl6eJQOjE4O78MJlhSPWV3xTp6qQ1tnA+xDUM59Af1pOe4ZWLcx/VWIneElfOMFrImwsrZjwvBhH9qxYvrZu0zy9q0vK4n7iUiJSqBJ4cQ9e44yq+EQy8sPvCGoIeWahFrer6usnAbuXFxxGnpPa2BBLUp7IHxPpSeP21oHbTODxUEnEdNK815sXr9C2cLqXUQ5lpDKG/vS8G1jpjH3cbR8SPHq7yJ5sDEv7KomQx4qJxptqYWXAV3Y0shqQEdS+GAD5og+rqlg9jYBcfpJy5JK75QqjTs9pCSUKcjWeryPnwhjRe+HivwZ+qArwE6Sz3lB8B6BhMm1oCyQCr/zoKykA+saMQyADwzXE7W4AHyYI6Pm9X1/QmbMZURp5I9Bz1ZHIYn43uy2jqmmWIoi/pCdf963vyEA0zMr0T08zjyanpZhLzcQNs3JWQ2H3v7KD//izJG2M/VsaiKSPVM+v+ydZYeuwB5idAFJoIDPYwHkg98jPNIKG57t0tEIK1R7vxFDK9kVpS+CWfl1xkBLA+JVLOvhATZE9OJE7bkVnSja+n0xWCd3OoThBUmgrec3kp34n6cKMRIRcZut/W9xb+L5iCvaLE5lIVFBndZ+cdZnn+fLK3UBeV4is9FheWL7ZQhOTM=
