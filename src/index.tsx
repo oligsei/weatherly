@@ -1,11 +1,11 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import {BrowserRouter} from 'react-router-dom';
-import {App} from './app/App';
+import { BrowserRouter } from 'react-router-dom';
+import { App } from './app/App';
 
 import './index.css';
 
-import {register as registerServiceWorker} from './registerServiceWorker';
+import { register as registerServiceWorker } from './registerServiceWorker';
 
 ReactDOM.render(
     <BrowserRouter>
